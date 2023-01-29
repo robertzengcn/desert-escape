@@ -393,14 +393,14 @@ public class PlayerControls : MonoBehaviour
                     }
                     else if (CurrentSlot == 1)
                     {//If there is a wall on the side then stumble. If already stumbling then die
-                        ishaking = true;
-                        StartCoroutine("Shake");
-                        ReduceSpeed();
-                        if (isStumbling)
-                        {
-                            Die();
-                        }
-                        isStumbling = true;
+                        //ishaking = true;
+                        //StartCoroutine("Shake");
+                        //ReduceSpeed();
+                        //if (isStumbling)
+                        //{
+                        //    Die();
+                        //}
+                        //isStumbling = true;
                     }
                 }
                 if (AndroidControls(1) == 4 || Input.GetKeyDown(KeyCode.LeftArrow))
@@ -762,6 +762,7 @@ public class PlayerControls : MonoBehaviour
 
     public void Die()
     {//What to do on death
+        Debug.Log("item die");
         ishaking = true;
         StartCoroutine("Shake"); //Shake the screen
         if (!DisableAnimations)
