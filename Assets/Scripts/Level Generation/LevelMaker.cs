@@ -18,8 +18,8 @@ public class LevelMaker : MonoBehaviour
     public List<Levels> level = new List<Levels>();
     public int xyPoints = 3;
     public int patternProgress = 0;
-   public  int currentPatternSet = -1;
-  public  int obstacleProgress = -1;
+    public  int currentPatternSet = -1;
+   public  int obstacleProgress = -1;
    public int obstacleMax = 0;
     public int skipPointMax = 1;  //Beta Stage
     public int currentPattern = 0;

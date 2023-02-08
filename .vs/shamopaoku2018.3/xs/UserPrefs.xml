@@ -1,26 +1,18 @@
-﻿<Properties StartupConfiguration="{98E2B9F9-E3BF-F45F-256C-FEA6695842E8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Level Generation/WorldManager.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{98E2B9F9-E3BF-F45F-256C-FEA6695842E8}|">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/Scripts/Player/PlayerControls.cs" Line="403" Column="46" />
-      <File FileName="Assets/Scripts/Level Generation/TrackObject.cs" Line="171" Column="59" />
-      <File FileName="Assets/Scripts/Level Generation/CollidableEnemyUGUI.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Level Generation/CurveManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Level Generation/destroyself.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Level Generation/LevelMaker.cs" Line="147" Column="10" />
-      <File FileName="Assets/Scripts/Level Generation/TrackObstacle.cs" Line="377" Column="16" />
-      <File FileName="Assets/Scripts/Level Generation/TriggerEnter.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Level Generation/WorldManager.cs" Line="229" Column="24" />
+      <File FileName="Assets/Scripts/Utility/GUIManagerUGUI.cs" Line="67" Column="4" />
+      <File FileName="Assets/Scripts/Player/PlayerControls.cs" Line="738" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="shamopaoku2018.3" expanded="True">
-            <Node name="Assets" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Level Generation" expanded="True">
-                  <Node name="WorldManager.cs" selected="True" />
-                </Node>
+                <Node name="Level Generation" expanded="True" />
                 <Node name="Player" expanded="True" />
+                <Node name="Utility" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -30,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ae4b0613-ea06-4717-9c5f-92b4bf3de9bc" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="450cc04b-2e17-4c05-9e37-f1ab004dbc4f" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

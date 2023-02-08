@@ -54,7 +54,7 @@ public class BaseLevel
     public class level
     {
     public string Name;
-        public float nextChangeDistance = 50f;
+    public float nextChangeDistance = 50f;
 
     public int LevelId;
     public bool foldout = false;

@@ -15,6 +15,7 @@ public class GUIManagerUGUI : MonoBehaviour {
 	public bool GameStarted=false; //Whether Game has started
 	public GameObject PlayerCamera; //The main Player Camera
 	GameObject Player;
+	public GameObject Road;
 	PlayerControls p; //The Main Player PlayerControls
 	bool movedtopos; //Moved to the end of transition position
 	public GameObject MainMenuCamera; //The main camera in main menu
@@ -42,7 +43,8 @@ public class GUIManagerUGUI : MonoBehaviour {
 		startPlayTransition = false;
 		GameStarted=false;
 		Player=GameObject.FindGameObjectWithTag("Player");
-		p=Player.GetComponent<PlayerControls>();
+	
+		p =Player.GetComponent<PlayerControls>();
 		movedtopos=false;
 		if(PlayerPrefs.GetFloat("FirstTime")==0){ //If this is the first time the game is opened
 			GamePreferencesCreate(); //Create the preferences
@@ -58,6 +60,11 @@ public class GUIManagerUGUI : MonoBehaviour {
 	// Update is called once per frame
 	public void hitMainMenuPlay(){
 		startPlayTransition = true;
+		if (Road != null)
+		{
+			Road.SetActive(true);
+
+		}
 	}
 	public void hitGamePlayPause(){
 		if (GameStarted == true) {
@@ -93,7 +100,8 @@ public class GUIManagerUGUI : MonoBehaviour {
             }
         }
 		if (startPlayTransition == true) {//Start Play transition animation
-						if (GameStarted == false) {
+           
+			if (GameStarted == false) {
 								MainMenuCamera.transform.parent = null;
 								MainMenuCamera.transform.position = Vector3.MoveTowards (MainMenuCamera.transform.position, PlayerCamera.transform.position, PlayTransitionSpeed * Time.deltaTime);//Camera move animation
 								MainMenuCamera.transform.rotation = Quaternion.Slerp (MainMenuCamera.transform.rotation, PlayerCamera.transform.rotation, PlayTransitionSpeed * Time.deltaTime);
