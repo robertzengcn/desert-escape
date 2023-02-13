@@ -1,18 +1,21 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{98E2B9F9-E3BF-F45F-256C-FEA6695842E8}|">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/Scripts/Utility/GUIManagerUGUI.cs" Line="67" Column="4" />
-      <File FileName="Assets/Scripts/Player/PlayerControls.cs" Line="738" Column="26" />
+      <File FileName="Assets/Scripts/Utility/GUIManagerUGUI.cs" Line="93" Column="10" />
+      <File FileName="Assets/Scripts/Player/PlayerControls.cs" Line="363" Column="42" />
+      <File FileName="Assets/Scripts/Level Generation/WorldManager.cs" />
+      <File FileName="Assets/Scripts/Level Generation/LevelMaker.cs" Line="80" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="shamopaoku2018.3" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scenes" expanded="True" />
               <Node name="Scripts" expanded="True">
-                <Node name="Level Generation" expanded="True" />
-                <Node name="Player" expanded="True" />
-                <Node name="Utility" expanded="True" />
+                <Node name="Player" expanded="True">
+                  <Node name="PlayerControls.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -22,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="450cc04b-2e17-4c05-9e37-f1ab004dbc4f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f0469a2a-c87b-4690-94f4-98c101a22398" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

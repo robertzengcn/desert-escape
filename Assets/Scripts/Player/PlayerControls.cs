@@ -360,7 +360,7 @@ public class PlayerControls : MonoBehaviour
     void SlotSystemMove()
     { //Slot movement are the movement of the Player in horizontal direction
       //All sideways movement calculations are here.
-        float SideWayEnemyCheckDist = 1.5f; //Maximum Distance to check whether there's an enemy on our side
+        float SideWayEnemyCheckDist = 1.0f; //Maximum Distance to check whether there's an enemy on our side
         if (dead == false && isRotating == false && canChangeSlot == true)
         {
             if (TrackType == TrackTypeEnum.ThreeSlotTrack)
